@@ -1,0 +1,130 @@
+#explore {
+  /* height: auto; */
+  padding: 2rem 4rem;
+  background-color: rgb(234, 234, 247);
+}
+.about-container {
+  align-items: center;
+  /* height: auto; */
+}
+.about-heading {
+  padding: 4rem 0 2rem;
+  /* margin: 5px; */
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.about-heading-text {
+  color: rgba(255, 0, 0, 0.9);
+}
+.span-element {
+  color: #121416;
+}
+.span-element-1 {
+  color: #121416;
+}
+.about-text {
+  /* margin: 5px; */
+  text-align: justify;
+  padding: 0 2rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #3d4042;
+}
+.mission {
+  text-align: center;
+  padding-top: 2rem;
+}
+.mission-text {
+  color: rgba(255, 0, 0, 0.9);
+}
+.card-container {
+  display: grid;
+  margin: 2rem 0;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 35px;
+  /* padding: 2rem 1rem 3rem; */
+  align-items: center;
+  height: 70%;
+  position: relative;
+}
+.cards {
+  margin: 5px;
+  text-align: center;
+  height: 100%;
+  display: flex;
+}
+.card-images {
+  margin: 2px;
+  width: 40%;
+  text-align: center;
+  align-items: center;
+}
+.card-images img {
+  width: 100%;
+}
+.card-img {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+.card-content {
+  height: 35%;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+}
+.card-text {
+  text-transform: uppercase;
+  padding: 0 2rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #f75f78;
+  text-align: center;
+  padding-left: 2rem;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 1200px) {
+  #explore {
+    margin: 2rem 2rem;
+  }
+  .card-container {
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #explore {
+    padding: 2rem 1rem;
+    justify-content: center;
+
+  }
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+  .about-us {
+    margin: 2rem 1rem;
+  }
+  .card-images img {
+    width: 100%;
+  }
+  .card-text {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #explore {
+    margin: 2rem 2rem;
+  }
+  .card-container {
+    grid-template-columns: 1fr;
+    margin: 2rem 1rem;
+  }
+  .card-images img {
+    width: 100%;
+  }
+}
